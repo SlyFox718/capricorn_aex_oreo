@@ -28,8 +28,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
 
 # ConfigPanel
-PRODUCT_PACKAGES += \
-    ConfigPanel
+#PRODUCT_PACKAGES += \
+#    ConfigPanel
 
 # Device init scripts
 PRODUCT_PACKAGES += \
@@ -40,8 +40,8 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service
 
 # FlipFlap
-PRODUCT_PACKAGES += \
-    FlipFlap
+#PRODUCT_PACKAGES += \
+#    FlipFlap
 
 # Input
 PRODUCT_COPY_FILES += \
