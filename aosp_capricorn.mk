@@ -1,5 +1,8 @@
 $(call inherit-product, device/xiaomi/capricorn/full_capricorn.mk)
 
+# Bootanimation resolution.
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Inherit some common AEX stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
