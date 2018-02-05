@@ -1,12 +1,12 @@
 # Audio ACDB
-etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
-etc/acdbdata/Forte/Forte_General_cal.acdb
-etc/acdbdata/Forte/Forte_Global_cal.acdb
-etc/acdbdata/Forte/Forte_Handset_cal.acdb
-etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
-etc/acdbdata/Forte/Forte_Headset_cal.acdb
-etc/acdbdata/Forte/Forte_Speaker_cal.acdb
-etc/acdbdata/adsp_avs_config.acdb
+etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
+etc/acdbdata/Forte/Forte_General_cal.acdb:vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
+etc/acdbdata/Forte/Forte_Global_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb
+etc/acdbdata/Forte/Forte_Handset_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb
+etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
+etc/acdbdata/Forte/Forte_Headset_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
+etc/acdbdata/Forte/Forte_Speaker_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
+etc/acdbdata/adsp_avs_config.acdb:vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Audio amplifier calibration sound
 etc/silence_short.wav
@@ -200,10 +200,10 @@ vendor/lib/libmmcamera_ov4688_primax_a7.so
 vendor/lib/libSonyIMX378PdafLibrary.so
 
 # Display calibration data
--etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml
--etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml
--etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml
--etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
+etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml
+etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml
+etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml
+etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
 
 # Fingerprint
 -app/QFingerprintService/QFingerprintService.apk
@@ -228,6 +228,3 @@ vendor/firmware/libpn548ad_fw.so
 # Sensors
 etc/sensors/hals.conf:vendor/etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
-
-# Thermal
-etc/thermal-engine-8996.conf
