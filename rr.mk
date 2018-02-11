@@ -1,12 +1,9 @@
 $(call inherit-product, device/xiaomi/capricorn/full_capricorn.mk)
 
-# Bootanimation resolution.
-TARGET_BOOT_ANIMATION_RES := 1080
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
-
-PRODUCT_NAME := aosp_capricorn
+PRODUCT_NAME := rr_capricorn
 PRODUCT_DEVICE := capricorn
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5s
