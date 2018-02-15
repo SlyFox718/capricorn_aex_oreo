@@ -1,6 +1,6 @@
 $(call inherit-product, device/xiaomi/capricorn/full_capricorn.mk)
 
-# Inherit some common RR stuff.
+# Inherit some common ResurrectionRemix stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 PRODUCT_NAME := rr_capricorn
